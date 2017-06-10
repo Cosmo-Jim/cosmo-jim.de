@@ -1,0 +1,202 @@
+
+/*  Formatierung body + Hintergrundgrafik*/
+
+
+body {
+color: #FFFFFF;
+width: auto;
+height: auto;
+font-size: 28px;
+font-family:bold sans;
+background: url(tunnel.png);
+background-repeat: no-repeat;
+background-attachment: auto;
+background-size: 100% 100%;
+}
+
+
+
+#Alles {
+color: #FFFFFF;
+position: relative;
+text-align: center;
+width: 900px;
+margin: 0px 0px 0px 40px;
+padding: 0px;
+border: 0px solid #9F9F9F;
+line-height: 130%;
+}
+
+#content {
+color: #FFFFFF;
+position: relative;
+text-align: center;
+top: 0px;
+left: 30px;
+width: 840px;
+margin: 0px 0px 0px 0px;
+padding: 0px;
+line-height: 130%;
+}
+
+
+/* horizontales menü */
+
+#Menue23 ul {
+
+margin: 0px;
+padding: 0px;
+top: 0px;
+position: fixed;
+}
+
+#Menue23 li {
+
+display: inline;
+float: left;
+margin: 0px;
+padding: 0px;
+list-style: none;
+
+
+}
+
+#Menue23 li a, #Menue23 li a:visited {
+
+display: block;
+background-color: #A864A8;
+margin: 0px 1px 1px 0px;
+padding: 5px 0px 5px 8px;
+width: 200px;
+font-family:bold sans;
+font-size: 28px;
+color: #FFFFFF;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+text-transform: none;
+
+}
+
+#Menue23 li a:hover {
+display: block;
+background-color: #BDD51A;
+color: #000000;
+text-decoration: none;
+text-transform: none;
+}
+
+div {
+				color:#FFFFFF;
+ 				font-size:28pt;
+  				font-family:bold sans; /* Schriftart */
+}
+
+
+
+
+
+/*  tabellenzellen */
+td {
+font-family:bold sans;
+font-size: 28px;
+font-weight: normal;
+text-decoration: none;
+color:#FFFFFF;
+line-height: 130%;
+}
+
+/*  Absätze Blockformatierung  */
+p {
+font-family:bold sans;
+font-size: 28px;
+font-weight: normal;
+text-decoration: none;
+color:#FFFFFF;
+text-align: center;
+}
+
+
+/*  Links allgemein */
+a, a:visited {
+font-family:bold sans;
+font-size: 28px;
+font-weight: normal;
+text-decoration: none;
+color:#FFFFFF;
+}
+
+a:hover {
+color:#FFFFFF;
+}
+
+div {
+font-family:bold sans;
+font-size: 28px;
+font-weight: normal;
+text-decoration: none;
+color:#FFFFFF;
+text-align: center;
+}
+
+/*  elemente mit Rand */
+.rand {
+border: 1px solid #FFFFFF;
+}
+
+
+/*  aufzählungen */
+ul {
+font-family:bold sans;
+font-size: 22px;
+font-weight: normal;
+color:#FFFFFF;
+}
+
+li {
+font-family:bold sans;
+font-size: 22px;
+font-weight: normal;
+color:#FFFFFF;
+}
+
+/*  preformatierter Text */
+pre {
+font-family:bold sans;
+color:#FFFFFF;
+font-size: 22px;
+}
+
+
+/*  eigene klasse für überschriften - zT nicht mehr in Fettschrift*/
+
+h1 {
+font-family:bold sans;
+font-size: 36px;
+font-weight: bold;
+color:#FFFFFF;
+}
+
+h2 {
+font-family:bold sans;
+font-size: 28px;
+font-weight: normal;
+color:#FFFFFF;
+}
+
+
+
+/*  eigene klassen für kleine schriften */
+.smallgrau {
+font-family:bold sans;
+font-size: 18px;
+color:#FFFFFF;
+}
+
+.mini {
+font-family:bold sans;
+font-size: 13px;
+font-weight: normal;
+text-decoration: none;
+color:#FFFFFF;
+}
